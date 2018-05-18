@@ -1,7 +1,8 @@
 import moviepy.editor as mv
 import Variables as vb
 
-def video( ):
+
+def video(e):
     clip1 = mv.VideoFileClip(vb.video_principal)
     clip2 = mv.VideoFileClip(vb.video_cabecera)
 
